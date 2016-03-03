@@ -16,6 +16,22 @@ header {
 main {
  background: white;
 }
+#faq {
+ width: 755px;
+ margin-left: 50px;
+ padding-top: 10px;
+ padding-bottom: 20px;
+}
+#Q, #A {
+ margin-top: 10px;
+}
+#Q {
+ font-weight: bold;
+}
+#A {
+ font-style: italic;
+ margin-left: 25px;
+}
 header {
  background: white;
  overflow: auto;
@@ -27,4 +43,8 @@ header h1 {
 header nav {
  float: right;
  width: 285px;
+}
+main h2 {
+  width: 570px;
+  font-weight: bold;
 }
